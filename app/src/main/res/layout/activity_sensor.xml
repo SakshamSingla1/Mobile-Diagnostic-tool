@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bakground"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+    <TableLayout
+    android:id="@+id/main_table"
+    android:layout_width="match_parent"
+    android:layout_marginTop="100dp"
+    android:layout_height="match_parent">
+    <TableRow/>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accelerometer"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/accelerometerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B4E5F4"
+            android:onClick="openAccelerometer"
+            android:text="Open Accelerometer"
+
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Gyroscope" />
+
+        <Button
+            android:id="@+id/gyroscopeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3E4F3"
+            android:onClick="openGyroscope"
+            android:text="Open Gyroscope"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Rotation Vector" />
+
+        <Button
+            android:id="@+id/rotationVectorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B2E3F2"
+            android:onClick="openRotationVector"
+            android:text="Open Rotation Vector"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Gravity Sensor" />
+
+        <Button
+            android:id="@+id/gravitySensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B1E2F1"
+            android:onClick="openGravitySensor"
+            android:text="Open Gravity Sensor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="Proximity Sensor" />
+
+        <Button
+            android:id="@+id/proximitySensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B0E1F0"
+            android:onClick="openProximitySensor"
+            android:text="Open Proximity Sensor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Orientation Sensor" />
+
+        <Button
+            android:id="@+id/orientationSensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B0E1F0"
+            android:onClick="openOrientationSensor"
+            android:text="Open Orientation Sensor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Magnetometer" />
+
+        <Button
+            android:id="@+id/magnetometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AFE0EF"
+            android:onClick="openMagnetometer"
+            android:text="Open Magnetometer"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Light Sensor" />
+
+        <Button
+            android:id="@+id/lightSensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AEDFEE"
+            android:onClick="openLightSensor"
+            android:text="Open Light Sensor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Temperature Sensor" />
+
+        <Button
+            android:id="@+id/temperatureSensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ADDEED"
+            android:onClick="openTemperatureSensor"
+            android:text="Open Temperature Sensor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Pressure Sensor" />
+
+        <Button
+            android:id="@+id/pressureSensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ADDEED"
+            android:onClick="openPressureSensor"
+            android:text="Open Pressure Sensor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Humidity Sensor" />
+
+        <Button
+            android:id="@+id/humiditySensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ADDEED"
+            android:onClick="openHumiditySensor"
+            android:text="Open Humidity Sensor"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</TableLayout>
+</LinearLayout>

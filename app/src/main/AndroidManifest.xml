@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mdt">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCELEROMETER" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MDT"
+        tools:targetApi="31">
+        <activity
+            android:name=".DisplayInfo"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/style" />
+
+        <activity
+            android:name=".Sound"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".Saksham" />
+        <activity
+            android:name=".HumiditySensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PressureSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TemperatureSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LightSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MagnetometerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrientationSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProximityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GravitySensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RotationSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GyroscopeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Accelerometer"
+            android:exported="false" />
+        <activity
+            android:name=".Sensor"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".Saksham" />
+        <activity
+            android:name=".System"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".Saksham" />
+        <activity
+            android:name=".Hardware"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".Saksham" />
+        <activity
+            android:name=".Camera"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".Saksham" />
+        <activity
+            android:name=".Calllog"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".Saksham" />
+        <activity
+            android:name=".Battery"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".Saksham" />
+        <activity
+            android:name=".Saksham"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

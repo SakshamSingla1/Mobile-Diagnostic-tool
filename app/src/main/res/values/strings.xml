@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DiagnoPro</string>
+    <string name="value">\"SERIAL: \"</string>
+    <string name="x_value_label">X-axis rotation value: </string>
+    <string name="y_value_label">Y-axis rotation value: </string>
+    <string name="z_value_label">Z-axis rotation value: </string>
+    <string name="x_value">%1$.2f°</string>
+    <string name="y_value">%1$.2f°</string>
+    <string name="z_value">%1$.2f°</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_label">Temperature: %1$.1f °C</string>
+    <string name="up">UP</string>
+    <string name="down">DOWM</string>
+    <string name="play_pause">PLAY/PAUSE</string>
+</resources>
